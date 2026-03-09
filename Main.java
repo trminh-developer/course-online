@@ -12,6 +12,7 @@ public class Main {
         OnlineCourse sql = new OnlineCourse("SQL & Database Design", "Hoàng Thị Em", 1_500_000);
         OnlineCourse docker = new OnlineCourse("Docker & Kubernetes", "Vũ Thành Phong", 2_800_000);
         OnlineCourse python = new OnlineCourse("Python cho Data Science", "Đặng Thị Giang", 3_500_000);
+        OnlineCourse cs = new OnlineCourse("Cyber Security", "TrMinh", 3_500_000);
 
         System.out.println("✓ Đã khởi tạo " + 7 + " khóa học");
 
@@ -31,6 +32,12 @@ public class Main {
         System.out.println("\nThêm khóa học vào đơn hàng của " + hocVien1.getName() + ":");
         donHang1.AddCourseOrder(java101);
         donHang1.AddCourseOrder(sql);
+        donHang1.AddCourseOrder(python);
+        donHang1.AddCourseOrder(docker);
+        donHang1.AddCourseOrder(spring);
+        donHang1.AddCourseOrder(react);
+        donHang1.AddCourseOrder(java202);
+        donHang1.AddCourseOrder(cs);
 
         donHang1.inDanhSachKhoaHoc();
 
