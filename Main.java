@@ -35,38 +35,40 @@ public class Main {
         donHang1.inDanhSachKhoaHoc();
 
         // 2: Học viên đăng ký >= 3 khóa (Được giảm 20%)
-        System.out.println("=".repeat(60));
-        System.out.println(" 2: Đăng ký ĐỦ 3 khóa trở lên (Giảm 20%)");
-        System.out.println("=".repeat(60));
+        // System.out.println("=".repeat(60));
+        // System.out.println(" 2: Đăng ký ĐỦ 3 khóa trở lên (Giảm 20%)");
+        // System.out.println("=".repeat(60));
 
-        CourseOrder donHang2 = new CourseOrder(hocVien1);
-        System.out.println("\nThêm khóa học vào đơn hàng của " + hocVien1.getName() + ":");
-        donHang2.AddCourseOrder(java101);
-        donHang2.AddCourseOrder(spring);
-        donHang2.AddCourseOrder(react);
-        donHang2.AddCourseOrder(sql);
+        // CourseOrder donHang2 = new CourseOrder(hocVien1);
+        // System.out.println("\nThêm khóa học vào đơn hàng của " + hocVien1.getName() +
+        // ":");
+        // donHang2.AddCourseOrder(java101);
+        // donHang2.AddCourseOrder(spring);
+        // donHang2.AddCourseOrder(react);
+        // donHang2.AddCourseOrder(sql);
 
-        donHang2.inDanhSachKhoaHoc();
+        // donHang2.inDanhSachKhoaHoc();
 
         // 3: Thêm khóa học trùng lặp
-        System.out.println("=".repeat(60));
-        System.out.println(" 3: Thử thêm khóa học TRÙNG LẶP");
-        System.out.println("=".repeat(60));
+        // System.out.println("=".repeat(60));
+        // System.out.println(" 3: Thử thêm khóa học TRÙNG LẶP");
+        // System.out.println("=".repeat(60));
 
-        CourseOrder donHang3 = new CourseOrder(hocVien1);
-        System.out.println("\nThêm khóa học vào đơn hàng của " + hocVien1.getName() + ":");
-        donHang3.AddCourseOrder(java202);
-        donHang3.AddCourseOrder(docker);
-        donHang3.AddCourseOrder(python);
-        donHang3.AddCourseOrder(java202); // Thêm trùng - sẽ báo cảnh báo
-        donHang3.AddCourseOrder(react);
+        // CourseOrder donHang3 = new CourseOrder(hocVien1);
+        // System.out.println("\nThêm khóa học vào đơn hàng của " + hocVien1.getName() +
+        // ":");
+        // donHang3.AddCourseOrder(java202);
+        // donHang3.AddCourseOrder(docker);
+        // donHang3.AddCourseOrder(python);
+        // donHang3.AddCourseOrder(java202); // Thêm trùng - sẽ báo cảnh báo
+        // donHang3.AddCourseOrder(react);
 
-        donHang3.inDanhSachKhoaHoc();
+        // donHang3.inDanhSachKhoaHoc();
 
         // 4: Kiểm tra validation input
-        System.out.println("=".repeat(60));
-        System.out.println(" 4: Kiểm tra VALIDATION dữ liệu đầu vào");
-        System.out.println("=".repeat(60));
+        // System.out.println("=".repeat(60));
+        // System.out.println(" 4: Kiểm tra VALIDATION dữ liệu đầu vào");
+        // System.out.println("=".repeat(60));
 
         System.out.println("\nTest tên học viên rỗng:");
         try {

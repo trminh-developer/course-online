@@ -103,7 +103,8 @@ public class CourseOrder implements DiscountRule {
             } else {
                 int conLai = Min_Course - list_course.size();
                 System.out.printf("%-59s %,12.0f%n", "THÀNH TIỀN: ", ApDungGiamGia());
-                System.out.printf("[Đăng ký thêm %d khóa nửa để được giảm %.0f%%]%n", conLai, DISCOUNT_RATE * 100);
+                // System.out.printf("[Đăng ký thêm %d khóa nửa để được giảm %.0f%%]%n", conLai,
+                // DISCOUNT_RATE * 100);
             }
         }
         System.out.println(line + "\n");
